@@ -3,7 +3,7 @@
 }
 
 .App-logo {
-  height: 40vmin;
+  height: 20vmin;
   pointer-events: none;
 }
 
@@ -35,4 +35,34 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+
+.crud-card{
+
+border: 5px solid white;
+border-radius: 6px;
+margin: 13px ;
+width: 20%;
+text-align: left;
+}
+
+.crud-title{
+font-size: 18px;
+padding:5px;
+text-align:center;
+  }
+
+.crud-body{
+font-size: 15px;
+padding:5px;
+color:rosybrown;
+text-align:center;
+}
+
+.image{
+  width: 100%;
+  display:block;
+  height: 100px;
+
 }
